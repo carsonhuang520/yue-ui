@@ -15,7 +15,6 @@ title: Input 输入框
   <input-demo2></input-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-input v-model="value"></y-input>
-    <div style="margin-top: 10px;">value: {{ value }}</div>
     <script>
       export default {
         data() {

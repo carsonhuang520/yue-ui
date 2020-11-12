@@ -15,9 +15,6 @@ title: Table 表格
     </y-table>
     <script>
       export default {
-        components: {
-          'y-table': Table,
-        },
         data() {
           return {
             selectedItems: [],
@@ -68,9 +65,6 @@ title: Table 表格
     </y-table>
     <script>
       export default {
-        components: {
-          'y-table': Table,
-        },
         data() {
           return {
             selectedItems: [],
@@ -122,9 +116,6 @@ title: Table 表格
     </y-table>
     <script>
       export default {
-        components: {
-          'y-table': Table,
-        },
         data() {
           return {
             selectedItems: [],
@@ -176,9 +167,6 @@ title: Table 表格
     </y-table>
     <script>
       export default {
-        components: {
-          'y-table': Table,
-        },
         data() {
           return {
             selectedItems: [],
@@ -233,9 +221,6 @@ title: Table 表格
     </y-table>
     <script>
       export default {
-        components: {
-          'y-table': Table,
-        },
         data() {
           return {
             selectedItems: [],
@@ -304,10 +289,6 @@ title: Table 表格
     >
     <script>
       export default {
-        components: {
-          'y-table': Table,
-          'y-button': Button,
-        },
         data() {
           return {
             selectedItems: [],
@@ -370,9 +351,6 @@ title: Table 表格
     </y-table>
     <script>
       export default {
-        components: {
-          'y-table': Table,
-        },
         data() {
           return {
             selectedItems: [],
@@ -426,9 +404,6 @@ title: Table 表格
     </y-table>
     <script>
       export default {
-        components: {
-          'y-table': Table,
-        },
         data() {
           return {
             selectedItems: [],
@@ -486,10 +461,6 @@ title: Table 表格
     </y-table>
     <script>
       export default {
-        components: {
-          'y-table': Table,
-          'y-button': Button,
-        },
         data() {
           return {
             selectedItems: [],
@@ -547,10 +518,6 @@ title: Table 表格
     </y-table>
     <script>
       export default {
-        components: {
-          'y-table': Table,
-          'y-button': Button,
-        },
         data() {
           return {
             selectedItems: [],
@@ -612,9 +579,6 @@ title: Table 表格
     </y-table>
     <script>
       export default {
-        components: {
-          'y-table': Table,
-        },
         data() {
           return {
             selectedItems: [],

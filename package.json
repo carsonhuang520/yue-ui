@@ -9,13 +9,14 @@
   },
   "dependencies": {
     "vue": "2.6.12",
-    "yued-test": "0.0.4"
+    "yued-test": "0.0.5"
   },
   "devDependencies": {
     "highlight.js": "9.12.0",
     "node-sass": "^4.9.0",
     "sass-loader": "7.0.1",
     "vue-highlight.js": "2.2.0",
-    "vuepress": "^1.7.1"
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-container": "^2.1.5"
   }
 }

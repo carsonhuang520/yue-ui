@@ -61,7 +61,7 @@ title: Button 按钮
   <button-demo6></button-demo6>
   <highlight-code slot="codeText" lang="vue">
     <y-button type="primary" size="large">Large</y-button>
-    <y-button type="primary" size="default">Default</y-button>
+    <y-button type="primary" size="middle">Default</y-button>
     <y-button type="primary" size="small">Small</y-button>
   </highlight-code>
 </code-demo>
@@ -76,7 +76,7 @@ table td { font-size: 14px; }
 
 | 参数         | 说明           | 类型    | 可选值                                                              | 默认值  |
 | ------------ | -------------- | ------- | ------------------------------------------------------------------- | ------- |
-| size         | 尺寸           | string  | small / default / large                                             | default |
+| size         | 尺寸           | string  | small / middle / large                                              | middle  |
 | type         | 类型           | string  | primary / success / warning / error / info / text / dashed /default | default |
 | disabled     | 是否禁用状态   | boolean | —                                                                   | false   |
 | icon         | 图标名称       | string  | —                                                                   | —       |

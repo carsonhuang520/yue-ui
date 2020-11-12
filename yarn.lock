@@ -8130,7 +8130,7 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-plugin-container@^2.0.2:
+vuepress-plugin-container@^2.0.2, vuepress-plugin-container@^2.1.5:
   version "2.1.5"
   resolved "https://registry.npm.taobao.org/vuepress-plugin-container/download/vuepress-plugin-container-2.1.5.tgz#37fff05662fedbd63ffd3a5463b2592c7a7f3133"
   integrity sha1-N//wVmL+29Y//TpUY7JZLHp/MTM=
@@ -8453,10 +8453,10 @@ yargs@^13.3.2:
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
 
-yued-test@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.npm.taobao.org/yued-test/download/yued-test-0.0.4.tgz#1343a721acf8c543b7fbc24e1cb49cb337acc68b"
-  integrity sha1-E0OnIaz4xUO3+8JOHLScszesxos=
+yued-test@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/yued-test/-/yued-test-0.0.5.tgz#fc0be1da5ecd53d5f136f6cc1c4246d8ca81748f"
+  integrity sha512-EhC0HXMNM8YUMhbpIMtZAwq8QiB2HTvU1h/4p0BHWO8qbLKQFl3TT+WWxQ/YGRZw9BaC4CEAQ+L78M7MmpHydw==
   dependencies:
     highlight.js "^9.12.0"
     vue "^2.6.12"

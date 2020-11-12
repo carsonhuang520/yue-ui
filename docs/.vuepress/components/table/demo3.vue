@@ -11,10 +11,10 @@
   </div>
 </template>
 <script>
-import { Table } from 'yued-test'
+import { YTable } from 'yued-test'
 export default {
   components: {
-    'y-table': Table,
+    YTable,
   },
   data() {
     return {

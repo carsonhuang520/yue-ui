@@ -8,10 +8,10 @@
   </div>
 </template>
 <script>
-import { Pagination } from 'yued-test'
+import { YPagination } from 'yued-test'
 export default {
   components: {
-    'y-pagination': Pagination,
+    YPagination,
   },
   data() {
     return {

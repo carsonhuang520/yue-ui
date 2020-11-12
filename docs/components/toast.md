@@ -11,12 +11,12 @@ title: Toast 全局提示
     <y-button type="primary" @click="handleClick('middle')">中间出现</y-button>
     <y-button type="primary" @click="handleClick('bottom')">下方出现</y-button>
     <script>
-      import { Button, plugin } from 'yued-test'
+      import { YButton, YPlugin } from 'yued-test'
       import Vue from 'vue'
-      Vue.use(plugin)
+      Vue.use(YPlugin)
       export default {
         components: {
-          'y-button': Button,
+          YButton,
         },
         methods: {
           handleClick(position) {
@@ -41,12 +41,12 @@ title: Toast 全局提示
   <highlight-code slot="codeText" lang="vue">
     <y-button type="primary" @click="handleClick">支持HTML形式</y-button>
     <script>
-      import { Button, plugin } from 'yued-test'
+      import { YButton, YPlugin } from 'yued-test'
       import Vue from 'vue'
-      Vue.use(plugin)
+      Vue.use(YPlugin)
       export default {
         components: {
-          'y-button': Button,
+          YButton,
         },
         methods: {
           handleClick() {
@@ -70,12 +70,12 @@ title: Toast 全局提示
     <y-button type="primary" @click="handleClick">支持自动关闭</y-button>
     <y-button type="primary" @click="handleClick2">设置自动关闭时长</y-button>
     <script>
-      import { Button, plugin } from 'yued-test'
+      import { YButton, YPlugin } from 'yued-test'
       import Vue from 'vue'
-      Vue.use(plugin)
+      Vue.use(YPlugin)
       export default {
         components: {
-          'y-button': Button,
+          YButton,
         },
         methods: {
           handleClick() {
@@ -101,12 +101,12 @@ title: Toast 全局提示
   <highlight-code slot="codeText" lang="vue">
     <y-button type="primary" @click="handleClick">自定义关闭按钮</y-button>
     <script>
-      import { Button, plugin } from 'yued-test'
+      import { YButton, YPlugin } from 'yued-test'
       import Vue from 'vue'
-      Vue.use(plugin)
+      Vue.use(YPlugin)
       export default {
         components: {
-          'y-button': Button,
+          YButton,
         },
         methods: {
           handleClick() {

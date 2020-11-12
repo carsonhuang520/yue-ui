@@ -10,7 +10,7 @@
   </div>
 </template>
 <script>
-import { Cascader } from 'yued-test'
+import { YCascader } from 'yued-test'
 import db from '../../../../src/db'
 function ajax(parentId = 0) {
   return new Promise((success, fail) => {
@@ -28,7 +28,7 @@ function ajax(parentId = 0) {
 }
 export default {
   components: {
-    'y-cascader': Cascader,
+    YCascader,
   },
   data() {
     return {

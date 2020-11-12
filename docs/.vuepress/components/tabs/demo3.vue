@@ -15,14 +15,14 @@
   </div>
 </template>
 <script>
-import { Tabs, TabsHead, TabsItem, TabsBody, TabsPane } from 'yued-test'
+import { YTabs, YTabsHead, YTabsItem, YTabsBody, YTabsPane } from 'yued-test'
 export default {
   components: {
-    'y-tabs': Tabs,
-    'y-tabs-head': TabsHead,
-    'y-tabs-item': TabsItem,
-    'y-tabs-body': TabsBody,
-    'y-tabs-pane': TabsPane,
+    YTabs,
+    YTabsHead,
+    YTabsItem,
+    YTabsBody,
+    YTabsPane,
   },
   data() {
     return {

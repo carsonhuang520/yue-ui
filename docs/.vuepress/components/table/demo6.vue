@@ -15,11 +15,11 @@
   </div>
 </template>
 <script>
-import { Table, Button } from 'yued-test'
+import { YTable, YButton } from 'yued-test'
 export default {
   components: {
-    'y-table': Table,
-    'y-button': Button,
+    YTable,
+    YButton,
   },
   data() {
     return {

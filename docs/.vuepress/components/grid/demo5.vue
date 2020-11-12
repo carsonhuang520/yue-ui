@@ -23,12 +23,12 @@
   </div>
 </template>
 <script>
-import { Row, Col } from 'yued-test'
+import { YRow, YCol } from 'yued-test'
 export default {
   name: 'grid-demo1',
   components: {
-    'y-row': Row,
-    'y-col': Col,
+    YRow,
+    YCol,
   },
 }
 </script>

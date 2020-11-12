@@ -14,11 +14,11 @@
   </div>
 </template>
 <script>
-import { Slides, SlidesItem } from 'yued-test'
+import { YSlides, YSlidesItem } from 'yued-test'
 export default {
   components: {
-    'y-slides': Slides,
-    'y-slides-item': SlidesItem,
+    YSlides,
+    YSlidesItem,
   },
   data() {
     return {

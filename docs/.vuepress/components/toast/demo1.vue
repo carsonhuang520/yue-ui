@@ -6,12 +6,12 @@
   </div>
 </template>
 <script>
-import { Button, plugin } from 'yued-test'
+import { YButton, YPlugin } from 'yued-test'
 import Vue from 'vue'
-Vue.use(plugin)
+Vue.use(YPlugin)
 export default {
   components: {
-    'y-button': Button,
+    YButton,
   },
   methods: {
     handleClick(position) {

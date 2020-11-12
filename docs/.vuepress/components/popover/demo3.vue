@@ -7,11 +7,11 @@
   </div>
 </template>
 <script>
-import { Popover, Button } from 'yued-test'
+import { YPopover, YButton } from 'yued-test'
 export default {
   components: {
-    'y-popover': Popover,
-    'y-button': Button,
+    YPopover,
+    YButton,
   },
   data() {
     return {}

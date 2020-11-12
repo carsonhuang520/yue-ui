@@ -5,10 +5,10 @@
   </div>
 </template>
 <script>
-import { Input } from 'yued-test'
+import { YInput } from 'yued-test'
 export default {
   components: {
-    'y-input': Input,
+    YInput,
   },
   data() {
     return {

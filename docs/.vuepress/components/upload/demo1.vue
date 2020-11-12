@@ -17,12 +17,12 @@
   </div>
 </template>
 <script>
-import { Icon, Button, Uploader } from 'yued-test'
+import { YIcon, YButton, YUploader } from 'yued-test'
 export default {
   components: {
-    'y-icon': Icon,
-    'y-uploader': Uploader,
-    'y-button': Button,
+    YIcon,
+    YUploader,
+    YButton,
   },
   data() {
     return {

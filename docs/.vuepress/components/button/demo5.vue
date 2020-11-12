@@ -7,13 +7,13 @@
   </div>
 </template>
 <script>
-import { Button, ButtonGroup } from 'yued-test'
+import { YButton, YButtonGroup } from 'yued-test'
 import 'yued-test/dist/yued.css'
 export default {
   name: 'button-demo5',
   components: {
-    'y-button': Button,
-    'y-button-group': ButtonGroup,
+    YButton,
+    YButtonGroup,
   },
 }
 </script>

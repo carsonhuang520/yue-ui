@@ -24,12 +24,12 @@
   </div>
 </template>
 <script>
-import { Menu, MenuItem, SubMenu } from 'yued-test'
+import { YMenu, YMenuItem, YSubMenu } from 'yued-test'
 export default {
   components: {
-    'y-menu': Menu,
-    'y-menu-item': MenuItem,
-    'y-sub-menu': SubMenu,
+    YMenu,
+    YMenuItem,
+    YSubMenu,
   },
   data() {
     return {

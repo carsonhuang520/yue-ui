@@ -35,14 +35,14 @@
   </div>
 </template>
 <script>
-import { Layout, Header, Content, Sider, Footer } from 'yued-test'
+import { YLayout, YHeader, YContent, YSider, YFooter } from 'yued-test'
 export default {
   components: {
-    'y-layout': Layout,
-    'y-header': Header,
-    'y-content': Content,
-    'y-sider': Sider,
-    'y-footer': Footer,
+    YLayout,
+    YHeader,
+    YContent,
+    YSider,
+    YFooter,
   },
 }
 </script>

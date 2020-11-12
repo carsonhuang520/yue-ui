@@ -8,11 +8,11 @@
   </div>
 </template>
 <script>
-import { Collapse, CollapseItem } from 'yued-test'
+import { YCollapse, YCollapseItem } from 'yued-test'
 export default {
   components: {
-    'y-collapse': Collapse,
-    'y-collapse-item': CollapseItem,
+    YCollapse,
+    YCollapseItem,
   },
   data() {
     return {
