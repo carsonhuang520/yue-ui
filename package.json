@@ -1,0 +1,21 @@
+{
+  "name": "yued-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vue": "2.6.12",
+    "yued-test": "0.0.4"
+  },
+  "devDependencies": {
+    "highlight.js": "9.12.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "7.0.1",
+    "vue-highlight.js": "2.2.0",
+    "vuepress": "^1.7.1"
+  }
+}
