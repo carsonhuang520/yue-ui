@@ -32,31 +32,31 @@ module.exports = {
               '/components/carousel',
             ],
           },
-          {
-            title: '布局',
-            children: [
-              '/components/grid',
-              '/components/layout',
-              '/components/collapse',
-            ],
-          },
-          {
-            title: '导航',
-            children: [
-              '/components/menu',
-              '/components/tabs',
-              '/components/pagination',
-            ],
-          },
-          {
-            title: '表单',
-            children: [
-              '/components/input',
-              '/components/table',
-              '/components/cascader',
-              '/components/upload',
-            ],
-          },
+            {
+              title: '布局',
+              children: [
+                '/components/grid',
+                '/components/layout',
+                '/components/collapse',
+              ],
+            },
+            {
+              title: '导航',
+              children: [
+                '/components/menu',
+                '/components/tabs',
+                '/components/pagination',
+              ],
+            },
+            {
+              title: '表单',
+              children: [
+                '/components/input',
+                '/components/table',
+                '/components/cascader',
+                '/components/upload',
+              ],
+            },
         ],
       },
     ],

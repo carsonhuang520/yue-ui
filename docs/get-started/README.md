@@ -27,7 +27,10 @@ import 'yued-test/dist/yued.css'
 
 ## Vue 单文件组件
 
-<demo></demo>
+<ClientOnly>
+  <start-demo></start-demo>
+</ClientOnly>
+
 代码示例：
 
 ```vue

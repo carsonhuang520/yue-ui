@@ -4,7 +4,8 @@ title: Upload 上传
 
 # 上传
 
-<code-demo title="点击上传" description="">
+<ClientOnly>
+  <code-demo title="点击上传" description="">
   <upload-demo1></upload-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-uploader
@@ -22,9 +23,11 @@ title: Upload 上传
       </y-button>
     </y-uploader>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="多文件上传" description="支持一次上传多个文件">
+<ClientOnly>
+  <code-demo title="多文件上传" description="支持一次上传多个文件">
   <upload-demo2></upload-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-uploader
@@ -42,7 +45,8 @@ title: Upload 上传
       </y-button>
     </y-uploader>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style>
 table th { width: 100px; text-align: left; background: #f7f7f7; } 

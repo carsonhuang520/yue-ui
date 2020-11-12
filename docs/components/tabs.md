@@ -4,7 +4,8 @@ title: Tabs 标签页
 
 # 标签页
 
-<code-demo title="基础用法" description="基础的、简洁的标签页">
+<ClientOnly>
+  <code-demo title="基础用法" description="基础的、简洁的标签页">
   <tabs-demo1></tabs-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-tabs :selected.sync="selected">
@@ -20,9 +21,11 @@ title: Tabs 标签页
       </y-tabs-body>
     </y-tabs>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="选项卡样式" description="选项卡样式的标签页">
+<ClientOnly>
+  <code-demo title="选项卡样式" description="选项卡样式的标签页">
   <tabs-demo2></tabs-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-tabs :selected.sync="selected" type="card">
@@ -38,9 +41,11 @@ title: Tabs 标签页
       </y-tabs-body>
     </y-tabs>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="禁用" description="可以禁用某个标签页">
+<ClientOnly>
+  <code-demo title="禁用" description="可以禁用某个标签页">
   <tabs-demo3></tabs-demo3>
   <highlight-code slot="codeText" lang="vue">
     <y-tabs :selected.sync="selected">
@@ -56,9 +61,11 @@ title: Tabs 标签页
       </y-tabs-body>
     </y-tabs>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="位置" description="可以设置标签的位置">
+<ClientOnly>
+  <code-demo title="位置" description="可以设置标签的位置">
   <tabs-demo4></tabs-demo4>
   <highlight-code slot="codeText" lang="vue">
     <y-tabs :selected.sync="selected" direction="vertical">
@@ -74,9 +81,11 @@ title: Tabs 标签页
       </y-tabs-body>
     </y-tabs>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="自定义图标" description="可以设置标签的图标">
+<ClientOnly>
+  <code-demo title="自定义图标" description="可以设置标签的图标">
   <tabs-demo5></tabs-demo5>
   <highlight-code slot="codeText" lang="vue">
     <y-tabs :selected.sync="selected">
@@ -92,7 +101,8 @@ title: Tabs 标签页
       </y-tabs-body>
     </y-tabs>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style scoped>
 table th { width: 100px; text-align: left; background: #f7f7f7; } 

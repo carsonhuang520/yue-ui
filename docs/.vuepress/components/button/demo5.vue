@@ -8,7 +8,6 @@
 </template>
 <script>
 import { YButton, YButtonGroup } from 'yued-test'
-import 'yued-test/dist/yued.css'
 export default {
   name: 'button-demo5',
   components: {

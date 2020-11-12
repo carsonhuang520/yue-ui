@@ -20,7 +20,7 @@
 <script>
 export default {
   name: 'button-demo',
-  props: ['title', 'description', 'code'],
+  props: ['title', 'description'],
   data() {
     return {
       isShow: false,

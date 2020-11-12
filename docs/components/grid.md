@@ -4,7 +4,8 @@ title: Grid 栅格
 
 # 栅格
 
-<code-demo title="基础布局" description="使用单一分栏创建基础的栅格布局">
+<ClientOnly>
+  <code-demo title="基础布局" description="使用单一分栏创建基础的栅格布局">
   <grid-demo1></grid-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-row class="row">
@@ -34,9 +35,11 @@ title: Grid 栅格
       <y-col class="item" :span="4">col-4</y-col>
     </y-row>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="分栏间隔" description="分栏之间存在间隔">
+<ClientOnly>
+  <code-demo title="分栏间隔" description="分栏之间存在间隔">
   <grid-demo2></grid-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-row class="row" :gutter="20">
@@ -46,9 +49,11 @@ title: Grid 栅格
       <y-col class="item" :span="6">col-6</y-col>
     </y-row>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="分栏偏移" description="支持偏移指定的栏数">
+<ClientOnly>
+  <code-demo title="分栏偏移" description="支持偏移指定的栏数">
   <grid-demo3></grid-demo3>
   <highlight-code slot="codeText" lang="vue">
     <y-row class="row" :gutter="20">
@@ -63,9 +68,11 @@ title: Grid 栅格
       <y-col class="item" :span="12" :offset="6">col-12</y-col>
     </y-row>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="混合布局" description="通过基础的 1/24 分栏任意扩展组合形成较为复杂的混合布局">
+<ClientOnly>
+  <code-demo title="混合布局" description="通过基础的 1/24 分栏任意扩展组合形成较为复杂的混合布局">
   <grid-demo4></grid-demo4>
   <highlight-code slot="codeText" lang="vue">
     <y-row class="row" :gutter="20">
@@ -84,9 +91,11 @@ title: Grid 栅格
       <y-col class="item" :span="4">col-4</y-col>
     </y-row>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="对齐方式" description="通过 flex 布局来对分栏进行灵活的对齐">
+<ClientOnly>
+  <code-demo title="对齐方式" description="通过 flex 布局来对分栏进行灵活的对齐">
   <grid-demo5></grid-demo5>
   <highlight-code slot="codeText" lang="vue">
     <y-row class="row">
@@ -110,9 +119,11 @@ title: Grid 栅格
       <y-col class="item" :order="2" :span="6">col-6-order-2</y-col>
     </y-row>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="响应式布局" description="参照了 Bootstrap 的响应式设计">
+<ClientOnly>
+  <code-demo title="响应式布局" description="参照了 Bootstrap 的响应式设计">
   <grid-demo6></grid-demo6>
   <highlight-code slot="codeText" lang="vue">
     <y-row class="row">
@@ -122,7 +133,8 @@ title: Grid 栅格
       <y-col class="item" :phone="{ span: 4 }" :pc="{ span: 6 }">col-6</y-col>
     </y-row>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style scoped>
 table th { width: 100px;text-align:left } 

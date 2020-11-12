@@ -4,7 +4,8 @@ title: Popover 弹出框
 
 # 弹出框
 
-<code-demo title="悬浮激活" description="鼠标 hover 后弹出框">
+<ClientOnly>
+  <code-demo title="悬浮激活" description="鼠标 hover 后弹出框">
   <popover-demo1></popover-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-popover class="top" trigger="hover">
@@ -32,9 +33,11 @@ title: Popover 弹出框
       <y-button>右边</y-button>
     </y-popover>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="点击激活" description="鼠标 click 后弹出框">
+<ClientOnly>
+  <code-demo title="点击激活" description="鼠标 click 后弹出框">
   <popover-demo2></popover-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-popover class="top">
@@ -62,9 +65,11 @@ title: Popover 弹出框
       <y-button>右边</y-button>
     </y-popover>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="嵌套操作" description="可以嵌套操作">
+<ClientOnly>
+  <code-demo title="嵌套操作" description="可以嵌套操作">
   <popover-demo3></popover-demo3>
   <highlight-code slot="codeText" lang="vue">
     <y-popover confirm>
@@ -72,7 +77,8 @@ title: Popover 弹出框
       <y-button type="primary">点我</y-button>
     </y-popover>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style scoped>
 table th { width: 100px; text-align: left; }

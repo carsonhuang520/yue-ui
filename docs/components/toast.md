@@ -4,7 +4,8 @@ title: Toast 全局提示
 
 # 全局提示
 
-<code-demo title="基础用法" description="基础的Toast">
+<ClientOnly>
+  <code-demo title="基础用法" description="基础的Toast">
   <toast-demo1></toast-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-button type="primary" @click="handleClick('top')">上方出现</y-button>
@@ -34,9 +35,11 @@ title: Toast 全局提示
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="支持 HTML 形式显示" description="可以在弹出框中以 HTML 形式显示">
+<ClientOnly>
+  <code-demo title="支持 HTML 形式显示" description="可以在弹出框中以 HTML 形式显示">
   <toast-demo2></toast-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-button type="primary" @click="handleClick">支持HTML形式</y-button>
@@ -62,9 +65,11 @@ title: Toast 全局提示
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="自动关闭弹出框" description="可以自动关闭弹出框，也可以设置关闭延时">
+<ClientOnly>
+  <code-demo title="自动关闭弹出框" description="可以自动关闭弹出框，也可以设置关闭延时">
   <toast-demo4></toast-demo4>
   <highlight-code slot="codeText" lang="vue">
     <y-button type="primary" @click="handleClick">支持自动关闭</y-button>
@@ -94,9 +99,11 @@ title: Toast 全局提示
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="自定义关闭" description="可以自定义关闭按钮和关闭操作">
+<ClientOnly>
+  <code-demo title="自定义关闭" description="可以自定义关闭按钮和关闭操作">
   <toast-demo3></toast-demo3>
   <highlight-code slot="codeText" lang="vue">
     <y-button type="primary" @click="handleClick">自定义关闭按钮</y-button>
@@ -124,7 +131,8 @@ title: Toast 全局提示
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style scoped>
 table th { width: 100px; text-align: left; background: #f7f7f7; } 

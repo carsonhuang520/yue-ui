@@ -4,7 +4,8 @@ title: Button 按钮
 
 # 按钮
 
-<code-demo title="基本用法" description="基本按钮用法">
+<ClientOnly>
+  <code-demo title="基本用法" description="基本按钮用法">
   <button-demo1></button-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-button>Default</y-button>
@@ -16,24 +17,30 @@ title: Button 按钮
     <y-button type="dashed">Dashed</y-button>
     <y-button type="text">Text</y-button>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="图标按钮" description="带图标的按钮">
+<ClientOnly>
+  <code-demo title="图标按钮" description="带图标的按钮">
   <button-demo3></button-demo3>
   <highlight-code slot="codeText" lang="vue">
     <y-button icon="settings">Settings</y-button>
     <y-button icon="settings" icon-position="right">Settings</y-button>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="加载中" description="按钮上显示加载状态">
+<ClientOnly>
+  <code-demo title="加载中" description="按钮上显示加载状态">
   <button-demo4></button-demo4>
   <highlight-code slot="codeText" lang="vue">
     <y-button loading>Loading</y-button>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="按钮组" description="以按钮组方式出现">
+<ClientOnly>
+  <code-demo title="按钮组" description="以按钮组方式出现">
   <button-demo5></button-demo5>
   <highlight-code slot="codeText" lang="vue">
     <y-button-group>
@@ -41,9 +48,11 @@ title: Button 按钮
       <y-button icon="right" icon-position="right">next</y-button>
     </y-button-group>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="禁用状态" description="按钮不可用状态">
+<ClientOnly>
+  <code-demo title="禁用状态" description="按钮不可用状态">
   <button-demo2></button-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-button disabled>Default</y-button>
@@ -55,16 +64,19 @@ title: Button 按钮
     <y-button type="dashed" disabled>Dashed</y-button>
     <y-button type="text" disabled>Text</y-button>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="不同尺寸" description="Button 组件提供除了默认值以外的三种尺寸，可以在不同场景下选择合适的按钮尺寸。">
+<ClientOnly>
+  <code-demo title="不同尺寸" description="Button 组件提供除了默认值以外的三种尺寸，可以在不同场景下选择合适的按钮尺寸。">
   <button-demo6></button-demo6>
   <highlight-code slot="codeText" lang="vue">
     <y-button type="primary" size="large">Large</y-button>
     <y-button type="primary" size="middle">Default</y-button>
     <y-button type="primary" size="small">Small</y-button>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style scoped>
 table th { width: 100px;text-align:left } 

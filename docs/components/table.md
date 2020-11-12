@@ -4,7 +4,8 @@ title: Table 表格
 
 # 表格
 
-<code-demo title="基础表格" description="基础的表格展示用法">
+<ClientOnly>
+  <code-demo title="基础表格" description="基础的表格展示用法">
   <table-demo1></table-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-table
@@ -51,9 +52,11 @@ title: Table 表格
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="带斑马纹表格" description="使用带斑马纹的表格，可以更容易区分出不同行的数据">
+<ClientOnly>
+  <code-demo title="带斑马纹表格" description="使用带斑马纹的表格，可以更容易区分出不同行的数据">
   <table-demo2></table-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-table
@@ -101,9 +104,11 @@ title: Table 表格
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="带边框表格" description="">
+<ClientOnly>
+  <code-demo title="带边框表格" description="">
   <table-demo3></table-demo3>
   <highlight-code slot="codeText" lang="vue">
     <y-table
@@ -152,9 +157,11 @@ title: Table 表格
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="可选择" description="选择多行数据时使用 checkbox">
+<ClientOnly>
+  <code-demo title="可选择" description="选择多行数据时使用 checkbox">
   <table-demo4></table-demo4>
   <highlight-code slot="codeText" lang="vue">
     <y-table
@@ -204,9 +211,11 @@ title: Table 表格
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="排序" description="对表格进行排序，可快速查找或对比数据">
+<ClientOnly>
+  <code-demo title="排序" description="对表格进行排序，可快速查找或对比数据">
   <table-demo5></table-demo5>
   <highlight-code slot="codeText" lang="vue">
     <y-table
@@ -270,9 +279,11 @@ title: Table 表格
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="加载中" description="">
+<ClientOnly>
+  <code-demo title="加载中" description="">
   <table-demo6></table-demo6>
   <highlight-code slot="codeText" lang="vue">
     <y-table
@@ -335,9 +346,11 @@ title: Table 表格
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="可展开" description="当行内容过多并且不想显示横向滚动条时，可以使用 Table 展开行功能">
+<ClientOnly>
+  <code-demo title="可展开" description="当行内容过多并且不想显示横向滚动条时，可以使用 Table 展开行功能">
   <table-demo7></table-demo7>
   <highlight-code slot="codeText" lang="vue">
     <y-table
@@ -388,9 +401,11 @@ title: Table 表格
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="显示序号列" description="">
+<ClientOnly>
+  <code-demo title="显示序号列" description="">
   <table-demo8></table-demo8>
   <highlight-code slot="codeText" lang="vue">
     <y-table
@@ -441,9 +456,11 @@ title: Table 表格
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="自定义列" description="自定义列的显示内容，可组合其他组件使用">
+<ClientOnly>
+  <code-demo title="自定义列" description="自定义列的显示内容，可组合其他组件使用">
   <table-demo9></table-demo9>
   <highlight-code slot="codeText" lang="vue">
     <y-table
@@ -498,9 +515,11 @@ title: Table 表格
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="固定表头" description="纵向内容过多时，可选择固定表头">
+<ClientOnly>
+  <code-demo title="固定表头" description="纵向内容过多时，可选择固定表头">
   <table-demo10></table-demo10>
   <highlight-code slot="codeText" lang="vue">
     <y-table
@@ -563,9 +582,11 @@ title: Table 表格
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="紧凑型" description="">
+<ClientOnly>
+  <code-demo title="紧凑型" description="">
   <table-demo11></table-demo11>
   <highlight-code slot="codeText" lang="vue">
     <y-table
@@ -616,7 +637,8 @@ title: Table 表格
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style scoped>
 table th { width: 100px; text-align: left; background: #f7f7f7; } 

@@ -10,9 +10,9 @@
     <y-button type="text">Text</y-button>
   </div>
 </template>
+
 <script>
 import { YButton } from 'yued-test'
-import 'yued-test/dist/yued.css'
 export default {
   name: 'button-demo1',
   components: {
@@ -20,6 +20,7 @@ export default {
   },
 }
 </script>
+
 <style lang="scss" scoped>
 .demo-button {
   width: 100%;

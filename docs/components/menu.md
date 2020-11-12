@@ -4,7 +4,8 @@ title: Menu 导航菜单
 
 # 导航菜单
 
-<code-demo title="顶栏" description="适用广泛的基础用法">
+<ClientOnly>
+  <code-demo title="顶栏" description="适用广泛的基础用法">
   <menu-demo1></menu-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-menu :selected.sync="selected">
@@ -38,9 +39,11 @@ title: Menu 导航菜单
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="侧栏" description="垂直菜单，可内嵌子菜单">
+<ClientOnly>
+  <code-demo title="侧栏" description="垂直菜单，可内嵌子菜单">
   <menu-demo2></menu-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-menu :selected.sync="selected" vertical>
@@ -74,9 +77,11 @@ title: Menu 导航菜单
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="禁用" description="可以通过disabled禁用某一个菜单">
+<ClientOnly>
+  <code-demo title="禁用" description="可以通过disabled禁用某一个菜单">
   <menu-demo3></menu-demo3>
   <highlight-code slot="codeText" lang="vue">
     <y-menu :selected.sync="selected">
@@ -110,9 +115,11 @@ title: Menu 导航菜单
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="hover展开" description="支持鼠标hover展开子目录，只有在水平方向有效">
+<ClientOnly>
+  <code-demo title="hover展开" description="支持鼠标hover展开子目录，只有在水平方向有效">
   <menu-demo4></menu-demo4>
   <highlight-code slot="codeText" lang="vue">
     <y-menu :selected.sync="selected" trigger>
@@ -146,7 +153,8 @@ title: Menu 导航菜单
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style scoped>
 table th { width: 100px; text-align: left; background: #f7f7f7; } 

@@ -4,7 +4,8 @@ title: Pagination 分页
 
 # 分页
 
-<code-demo title="基础用法" description="基础的分页">
+<ClientOnly>
+  <code-demo title="基础用法" description="基础的分页">
   <pagination-demo1></pagination-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-pagination
@@ -13,7 +14,8 @@ title: Pagination 分页
       :hide-on-single-page="false"
     ></y-pagination>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style scoped>
 table th { width: 100px; text-align: left; background: #f7f7f7; } 

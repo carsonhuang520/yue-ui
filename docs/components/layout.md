@@ -4,7 +4,8 @@ title: Layout 布局
 
 # 布局
 
-<code-demo title="常见页面布局" description="典型的页面布局">
+<ClientOnly>
+  <code-demo title="常见页面布局" description="典型的页面布局">
   <layout-demo1></layout-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-layout class="layout">
@@ -41,7 +42,8 @@ title: Layout 布局
     </y-layout>
 
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style scoped>
 table th { width: 100px;text-align:left } 

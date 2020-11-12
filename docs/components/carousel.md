@@ -4,7 +4,8 @@ title: Carousel 走马灯
 
 # 走马灯
 
-<code-demo title="基础用法" description="适用广泛的基础用法">
+<ClientOnly>
+  <code-demo title="基础用法" description="适用广泛的基础用法">
   <carousel-demo1></carousel-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-slides :selected.sync="selected" :auto-play="false">
@@ -19,9 +20,11 @@ title: Carousel 走马灯
       </y-slides-item>
     </y-slides>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="自动轮播" description="可以自动轮播">
+<ClientOnly>
+  <code-demo title="自动轮播" description="可以自动轮播">
   <carousel-demo2></carousel-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-slides :selected.sync="selected" :auto-play="true">
@@ -36,7 +39,8 @@ title: Carousel 走马灯
       </y-slides-item>
     </y-slides>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style>
 table th { width: 100px; text-align: left; background: #f7f7f7; } 

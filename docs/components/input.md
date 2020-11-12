@@ -4,14 +4,17 @@ title: Input 输入框
 
 # 输入框
 
-<code-demo title="基础用法" description="">
+<ClientOnly>
+  <code-demo title="基础用法" description="">
   <input-demo1></input-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-input value="hello world"></y-input>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="双向绑定" description="">
+<ClientOnly>
+  <code-demo title="双向绑定" description="">
   <input-demo2></input-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-input v-model="value"></y-input>
@@ -25,30 +28,38 @@ title: Input 输入框
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="禁用状态" description="">
+<ClientOnly>
+  <code-demo title="禁用状态" description="">
   <input-demo3></input-demo3>
   <highlight-code slot="codeText" lang="vue">
     <y-input v-model="value" disabled></y-input>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="只读状态" description="">
+<ClientOnly>
+  <code-demo title="只读状态" description="">
   <input-demo6></input-demo6>
   <highlight-code slot="codeText" lang="vue">
     <y-input v-model="value" readonly></y-input>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="错误信息" description="">
+<ClientOnly>
+  <code-demo title="错误信息" description="">
   <input-demo4></input-demo4>
   <highlight-code slot="codeText" lang="vue">
     <y-input value="hello world" error="输入格式不对"></y-input>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="带 Icon 的输入框" description="带有图标标记输入类型">
+<ClientOnly>
+  <code-demo title="带 Icon 的输入框" description="带有图标标记输入类型">
   <input-demo5></input-demo5>
   <highlight-code slot="codeText" lang="vue">
     <y-input
@@ -57,7 +68,8 @@ title: Input 输入框
       placeholder="enter something"
     ></y-input>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style>
 table th { width: 100px; text-align: left; background: #f7f7f7; } 

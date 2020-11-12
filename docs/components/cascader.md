@@ -4,7 +4,8 @@ title: Cascader 级联选择器
 
 # 级联选择器
 
-<code-demo title="基础用法" description="点击触发子菜单">
+<ClientOnly>
+  <code-demo title="基础用法" description="点击触发子菜单">
   <cascader-demo1></cascader-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-cascader
@@ -52,9 +53,11 @@ title: Cascader 级联选择器
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="动态加载" description="当选中某一级时，动态加载该级下的选项">
+<ClientOnly>
+  <code-demo title="动态加载" description="当选中某一级时，动态加载该级下的选项">
   <cascader-demo2></cascader-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-cascader
@@ -104,7 +107,8 @@ title: Cascader 级联选择器
       }
     </script>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style>
 table th { width: 100px; text-align: left; background: #f7f7f7; } 

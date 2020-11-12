@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="margin-top: 10px;">
     <y-button type="primary">按钮</y-button>
   </div>
 </template>

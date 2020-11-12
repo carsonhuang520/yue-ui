@@ -4,7 +4,8 @@ title: Collapse 折叠面板
 
 # 折叠面板
 
-<code-demo title="基础用法" description="可同时展开多个面板，面板之间不影响">
+<ClientOnly>
+  <code-demo title="基础用法" description="可同时展开多个面板，面板之间不影响">
   <collapse-demo1></collapse-demo1>
   <highlight-code slot="codeText" lang="vue">
     <y-collapse :selected.sync="selected">
@@ -13,9 +14,11 @@ title: Collapse 折叠面板
       <y-collapse-item title="标题3" name="3">内容3</y-collapse-item>
     </y-collapse>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
-<code-demo title="手风琴效果" description="每次只能展开一个面板">
+<ClientOnly>
+  <code-demo title="手风琴效果" description="每次只能展开一个面板">
   <collapse-demo2></collapse-demo2>
   <highlight-code slot="codeText" lang="vue">
     <y-collapse :selected.sync="selected" accordion>
@@ -24,7 +27,8 @@ title: Collapse 折叠面板
       <y-collapse-item title="标题3" name="3">内容3</y-collapse-item>
     </y-collapse>
   </highlight-code>
-</code-demo>
+  </code-demo>
+</ClientOnly>
 
 <style>
 table th { width: 100px; text-align: left; background: #f7f7f7; } 
