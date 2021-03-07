@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[63],{652:function(t,n,e){"use strict";e.r(n);var o={name:"demo",components:{YButton:e(487).YButton}},s=e(43),u=Object(s.a)(o,(function(){var t=this.$createElement,n=this._self._c||t;return n("div",[n("y-button",{attrs:{type:"primary"}},[this._v("按钮")])],1)}),[],!1,null,null,null);n.default=u.exports}}]);
