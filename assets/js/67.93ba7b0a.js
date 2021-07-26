@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[67],{676:function(n,t,e){"use strict";e.r(t);var r={components:{YInput:e(487).YInput},data:function(){return{}}},u=e(43),l=Object(u.a)(r,(function(){var n=this.$createElement,t=this._self._c||n;return t("div",[t("y-input",{attrs:{value:"hello world",error:"输入格式不对"}})],1)}),[],!1,null,null,null);t.default=l.exports}}]);

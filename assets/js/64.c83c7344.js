@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[64],{673:function(n,t,e){"use strict";e.r(t);var u={components:{YInput:e(487).YInput},data:function(){return{}}},l=e(43),o=Object(l.a)(u,(function(){var n=this.$createElement,t=this._self._c||n;return t("div",[t("y-input",{attrs:{value:"hello world"}})],1)}),[],!1,null,null,null);t.default=o.exports}}]);
